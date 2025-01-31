@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         if (inStonksMenu) {
             if (cmd === "juncoin") {
-                window.location.href = "https://your-external-url.com"; // Replace with real URL
+                window.location.href = "https://junsdiary.fun/"; // Replace with real URL
             } else if (cmd === "back") {
                 inStonksMenu = false;
                 clearScreen();
