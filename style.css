@@ -1,0 +1,79 @@
+/* Ensure the entire page has a black background */
+body {
+    background-color: black;
+    color: rgb(203, 27, 27);
+    font-family: "Consolas", "Inconsolata", monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Input container at the bottom left */
+#input-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between '>' and input field */
+    width: 100%;
+}
+
+/* Greater-than sign before input */
+#input-container span {
+    color: rgb(203, 27, 27);
+    font-size: 16px;
+    font-family: "Consolas", "Inconsolata", monospace;
+    white-space: nowrap;
+}
+
+/* Input field */
+#command {
+    background: transparent;
+    border: none;
+    color: rgb(203, 27, 27);
+    font-size: 16px;
+    font-family: "Consolas", "Inconsolata", monospace;
+    outline: none;
+    width: calc(100% - 50px); /* Ensures input field stretches properly */
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+/* Terminal text styling */
+.terminal-output {
+    white-space: pre-wrap;
+    font-size: 16px;
+    color: rgb(203, 27, 27);
+    font-family: "Consolas", "Inconsolata", monospace;
+    margin-bottom: 5px;
+}
+
+/* Input container fixed at the bottom left */
+#input-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between '>' and input field */
+    width: 100%;
+    background: black; /* Ensures it's not affected by anything */
+    padding: 5px 0;
+}
+
+/* Input field stays at the bottom */
+#command {
+    background: transparent;
+    border: none;
+    color: rgb(203, 27, 27);
+    font-size: 16px;
+    font-family: "Consolas", "Inconsolata", monospace;
+    outline: none;
+    width: calc(100% - 50px); /* Ensures input field stretches properly */
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+} 
